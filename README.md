@@ -21,7 +21,6 @@ This project aims to recognize static American Sign Language (ASL) gestures in r
 ├── asl_realTime.py              # Real-time detection using webcam
 ├── ASL.ipynb                    # Jupyter Notebook for model training
 ├── asl_model.keras              # Trained Keras model for inference
-├── asl_keypoints_dataset_1000.csv  # Dataset with extracted hand keypoints
 └── README.md                    # You're reading this!
 ```
 
