@@ -26,16 +26,16 @@ This project aims to recognize static American Sign Language (ASL) gestures in r
 
 ---
 
-## 🧠 Model Training Pipeline (ASL.ipynb)
+##  Model Training Pipeline (ASL.ipynb)
 
 1. **Dataset:** ASL Alphabet Dataset from Kaggle (~87K images)
 2. **Preprocessing:**
    - 1,000 images per class sampled
    - MediaPipe used to extract 21 hand landmarks → 63 keypoints
 3. **Models:**
-   - 🧠 Feedforward Neural Network (3 layers)
-   - 🌲 Random Forest (100 trees)
-   - 🔁 Gradient Boosting (100 estimators)
+   -  Feedforward Neural Network (3 layers)
+   -  Random Forest (100 trees)
+   -  Gradient Boosting (100 estimators)
 4. **Evaluation:**
    - Accuracy, Precision, Recall, F1-Score
    - Confusion matrix & performance graphs
